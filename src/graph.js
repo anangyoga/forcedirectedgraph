@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const data = {
+    // nodes: ini kolom untuk tabel nama
     nodes: [
       { id: "Myriel", group: 1 },
       { id: "Napoleon", group: 1 },
@@ -9,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       { id: "Mme.Magloire", group: 1 },
       { id: "CountessdeLo", group: 1 },
     ],
+    // links: nyambung darimana kemana, source to target
     links: [
       { source: "Napoleon", target: "Myriel", value: 1 },
       { source: "Mlle.Baptistine", target: "Myriel", value: 8 },
